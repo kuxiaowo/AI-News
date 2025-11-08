@@ -1,0 +1,19 @@
+{
+  "local_api": {
+    "deepseek_api": "https://api.deepseek.com/v1/chat/completions"
+  },
+  "app": {
+    "mock_mode": false,
+    "curated_count": 30,
+    "log_dir": "logs",
+    "log_level": "INFO",
+    "brief_enrich": false,
+    "brief_len_min": 12,
+    "brief_len_max": 24
+  },
+  "tianapi": {
+    "base_url": "https://apis.tianapi.com/generalnews/index",
+    "key": "",
+    "timeout": 15
+  }
+}
